@@ -1,0 +1,47 @@
+{
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Sinks.File"
+    ],
+    "MinimumLevel": {
+      "Default": "Debug",
+      "Override": {
+        "Microsoft": "Information",
+        "Volo.Abp": "Information",
+        "Hangfire": "Information",
+        "DotNetCore.CAP": "Information",
+        "Serilog.AspNetCore": "Information",
+        "Microsoft.EntityFrameworkCore": "Warning",
+        "Microsoft.AspNetCore": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console"
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/logs-.txt",
+          "rollingInterval": "Day"
+        }
+      }
+    ]
+  },
+  "App": {
+    "SelfUrl": "http://localhost:44315"
+  },
+  "ConnectionStrings": {
+    "Default": "User ID=postgres;Password=<YOUR_DB_PASSWORD>;Host=localhost;Port=5432;Database=LionAbpProDb;"
+  },
+  "Swagger": {
+    "Enabled": true
+  },
+  "Jwt": {
+    "Audience": "Lion.AbpPro.BasicManagement",
+    "SecurityKey": "dzehzRz9a8asdfasfdadfasdfasdfafsdadfasbasdf=",
+    "Issuer": "Lion.AbpPro",
+    "ExpirationTime": 30
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "App": {
+    "SelfUrl": "http://localhost:44315"
+  },
+  "ConnectionStrings": {
+    "Default": "User ID=postgres;Password=<YOUR_DB_PASSWORD>;Host=localhost;Port=5432;Database=LionAbpProDb;"
+  },
+  "Swagger": {
+    "Enabled": true
+  },
+  "Jwt": {
+    "Audience": "Lion.AbpPro.BasicManagement",
+    "SecurityKey": "dzehzRz9a8asdfasfdadfasdfasdfafsdadfasbasdf=",
+    "Issuer": "Lion.AbpPro",
+    "ExpirationTime": 30
+  }
+}

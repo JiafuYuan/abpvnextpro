@@ -1,0 +1,7 @@
+﻿<Project>
+    <!--    Lion.AbpPro包-->
+    <ItemGroup>
+        <PackageReference Update="Lion.AbpPro.Core" Version="MyVersion"/>
+        <PackageReference Update="Lion.AbpPro.AspNetCore" Version="MyVersion"/>
+    </ItemGroup>
+</Project>

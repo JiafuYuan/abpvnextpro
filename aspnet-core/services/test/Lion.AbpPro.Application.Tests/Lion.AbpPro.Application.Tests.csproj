@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Lion.AbpPro</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <NoWarnNuGet>NU1902;NU1903</NoWarnNuGet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Lion.AbpPro.Application\Lion.AbpPro.Application.csproj" />
+    <ProjectReference Include="..\Lion.AbpPro.Domain.Tests\Lion.AbpPro.Domain.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+  </ItemGroup>
+
+</Project>

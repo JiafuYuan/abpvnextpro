@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {
+   // "Default": "Data Source=localhost;Port=3306;Database=LionAbpProDemo10;uid=root;pwd=<YOUR_PASSWORD>;charset=utf8mb4;Allow User Variables=true;AllowLoadLocalInfile=true"
+    "Default": "User ID=postgres;Password=<YOUR_DB_PASSWORD>;Host=localhost;Port=5432;Database=LionAbpProDb160;"
+  },
+  // 放宽密码策略，保证新库 seed 出来的 admin 密码 <YOUR_PASSWORD> 能通过校验
+  "Settings": {
+    "Abp.Identity.Password.RequireUppercase": "false",
+    "Abp.Identity.Password.RequireNonAlphanumeric": "false"
+  }
+}

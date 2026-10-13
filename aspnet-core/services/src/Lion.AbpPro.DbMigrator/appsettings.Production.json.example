@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    // "Default": "Data Source=localhost;Port=3306;Database=LionAbpProDemo10;uid=root;pwd=<YOUR_PASSWORD>;charset=utf8mb4;Allow User Variables=true;AllowLoadLocalInfile=true"
+    "Default": "User ID=postgres;Password=<YOUR_DB_PASSWORD>;Host=localhost;Port=5432;Database=LionAbpProDb160;"
+  }
+}

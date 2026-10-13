@@ -426,3 +426,11 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# 含真实数据库/服务密码的本地配置（保留在本机，不提交；参考同名 .example 文件）
+/aspnet-core/services/host/Lion.AbpPro.HttpApi.Host/appsettings.Development.json
+/aspnet-core/services/host/Lion.AbpPro.HttpApi.Host/appsettings.Production.json
+/aspnet-core/services/src/Lion.AbpPro.DbMigrator/appsettings.json
+/aspnet-core/services/src/Lion.AbpPro.DbMigrator/appsettings.Production.json
+/aspnet-core/modules/BasicManagement/host/Lion.AbpPro.BasicManagement.HttpApi.Host/appsettings.json
+/aspnet-core/modules/DataDictionaryManagement/host/Lion.AbpPro.DataDictionaryManagement.HttpApi.Host/appsettings.json
