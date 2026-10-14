@@ -29,5 +29,6 @@ pnpm-debug.log*
 *.sw?
 
 package-lock.json
-pnpm-lock.yaml
+# 本项目统一使用 pnpm，锁定文件需要入库（原模板默认忽略，已放开）
+# pnpm-lock.yaml
 
