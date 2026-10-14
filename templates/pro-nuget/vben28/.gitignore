@@ -29,5 +29,5 @@ pnpm-debug.log*
 *.sw?
 
 package-lock.json
-pnpm-lock.yaml
-
+# 统一使用 pnpm，锁定文件需要入库
+# pnpm-lock.yaml
